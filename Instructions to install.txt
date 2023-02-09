@@ -1,0 +1,40 @@
+Steps to install and use this software :
+
+Requirements :
+
+1. WAMP/XAMP/LAMP server (must support MySQLi).
+2. Windows 7/8/8.1/10 having 64 bit.
+
+How to install this software:
+
+1. Copy and Paste the "Source_code" folder in C:/wamp/www/ (for WAMP) or C:/xampp/htdocs (for XAMPP).
+2. Rename it as "Online_exam".
+3. In "phpMyAdmin", make a database, name it as "online_exam".
+4. In the folder, there is a folder named "database". There you will find "db.sql" file.
+5. Import that sql file in "online_exam" database.
+
+How to launch this software:
+
+For the examinees--
+
+1. Go to any browser.
+
+2. Type localhost/Online_exam or IPAddress/Online_exam or 
+     localhost:port/Online_exam or IPAddress:port/Online_exam.
+
+For the admin--
+
+1. Go to any browser.
+2. Type localhost/Online_exam/admin or IPAddress/Online_exam/admin or 
+     localhost:port/Online_exam/admin or IPAddress:port/Online_exam/admin.
+
+3. Default credentials for admin to log in
+    3.1. Username : admin
+    3.2. Password : pass
+
+N.B. : You can find it in mysql table (table name :"admin") also. Change the data if your wish.
+
+
+Some caution:
+
+1. Don't change the name of any tables, or its field names.
